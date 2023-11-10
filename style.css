@@ -1,0 +1,57 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 220, 220)
+}
+h2{
+    color: hsla(240, 85%, 48%, 0.788);
+}
+
+form{
+    padding: 10px 10px 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 5px 25px;
+    max-width: 400px;
+    max-height: 600px;
+    margin: auto;
+    border-radius: 6px;
+
+}
+
+#textbox{
+    width: 60%;
+    background-color: yellow;
+    font-size: 1.5em;
+    border-radius: 6px;
+    text-align: center;
+}
+
+label{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button{
+    background-color: hsl(120, 89%, 38%);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 11px;
+    border: 1px solid black;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: hsl(120, 49%, 16%);
+}
+
+#result{
+    font-size: larger;
+    padding: 10px;
+    font-weight: bold;
+}
+.main{
+   text-align: center;
+   margin: auto;
+}
